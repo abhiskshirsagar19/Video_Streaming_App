@@ -15,6 +15,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -28,8 +29,9 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
+  height: 100vh;
+  background-color: #131520;
+  min-height: 100vh;
 
 }
 
